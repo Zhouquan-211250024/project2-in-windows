@@ -1,0 +1,3 @@
+"D:\clion\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\project2_in_windows.dir/objects.a
+D:\365712127\FileRecv\mingw64\bin\ar.exe cr CMakeFiles\project2_in_windows.dir/objects.a @CMakeFiles\project2_in_windows.dir\objects1.rsp
+D:\365712127\FileRecv\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\project2_in_windows.dir/objects.a -Wl,--no-whole-archive -o project2_in_windows.exe -Wl,--out-implib,libproject2_in_windows.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\project2_in_windows.dir\linklibs.rsp
