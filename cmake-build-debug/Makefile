@@ -128,6 +128,54 @@ project2_in_windows/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\project2_in_windows.dir\build.make CMakeFiles/project2_in_windows.dir/build
 .PHONY : project2_in_windows/fast
 
+event.obj: event.c.obj
+.PHONY : event.obj
+
+# target to build an object file
+event.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project2_in_windows.dir\build.make CMakeFiles/project2_in_windows.dir/event.c.obj
+.PHONY : event.c.obj
+
+event.i: event.c.i
+.PHONY : event.i
+
+# target to preprocess a source file
+event.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project2_in_windows.dir\build.make CMakeFiles/project2_in_windows.dir/event.c.i
+.PHONY : event.c.i
+
+event.s: event.c.s
+.PHONY : event.s
+
+# target to generate assembly for a file
+event.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project2_in_windows.dir\build.make CMakeFiles/project2_in_windows.dir/event.c.s
+.PHONY : event.c.s
+
+main-function.obj: main-function.c.obj
+.PHONY : main-function.obj
+
+# target to build an object file
+main-function.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project2_in_windows.dir\build.make CMakeFiles/project2_in_windows.dir/main-function.c.obj
+.PHONY : main-function.c.obj
+
+main-function.i: main-function.c.i
+.PHONY : main-function.i
+
+# target to preprocess a source file
+main-function.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project2_in_windows.dir\build.make CMakeFiles/project2_in_windows.dir/main-function.c.i
+.PHONY : main-function.c.i
+
+main-function.s: main-function.c.s
+.PHONY : main-function.s
+
+# target to generate assembly for a file
+main-function.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project2_in_windows.dir\build.make CMakeFiles/project2_in_windows.dir/main-function.c.s
+.PHONY : main-function.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -152,6 +200,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\project2_in_windows.dir\build.make CMakeFiles/project2_in_windows.dir/main.c.s
 .PHONY : main.c.s
 
+resource.obj: resource.c.obj
+.PHONY : resource.obj
+
+# target to build an object file
+resource.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project2_in_windows.dir\build.make CMakeFiles/project2_in_windows.dir/resource.c.obj
+.PHONY : resource.c.obj
+
+resource.i: resource.c.i
+.PHONY : resource.i
+
+# target to preprocess a source file
+resource.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project2_in_windows.dir\build.make CMakeFiles/project2_in_windows.dir/resource.c.i
+.PHONY : resource.c.i
+
+resource.s: resource.c.s
+.PHONY : resource.s
+
+# target to generate assembly for a file
+resource.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project2_in_windows.dir\build.make CMakeFiles/project2_in_windows.dir/resource.c.s
+.PHONY : resource.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,9 +233,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... project2_in_windows
+	@echo ... event.obj
+	@echo ... event.i
+	@echo ... event.s
+	@echo ... main-function.obj
+	@echo ... main-function.i
+	@echo ... main-function.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... resource.obj
+	@echo ... resource.i
+	@echo ... resource.s
 .PHONY : help
 
 

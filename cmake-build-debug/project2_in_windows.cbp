@@ -76,7 +76,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/project2/project2-in-windows/event.c">
+			<Option target="project2_in_windows"/>
+		</Unit>
+		<Unit filename="D:/project2/project2-in-windows/event.h">
+			<Option target="project2_in_windows"/>
+		</Unit>
+		<Unit filename="D:/project2/project2-in-windows/global.h">
+			<Option target="project2_in_windows"/>
+		</Unit>
+		<Unit filename="D:/project2/project2-in-windows/main-function.c">
+			<Option target="project2_in_windows"/>
+		</Unit>
+		<Unit filename="D:/project2/project2-in-windows/main-function.h">
+			<Option target="project2_in_windows"/>
+		</Unit>
 		<Unit filename="D:/project2/project2-in-windows/main.c">
+			<Option target="project2_in_windows"/>
+		</Unit>
+		<Unit filename="D:/project2/project2-in-windows/resource.c">
+			<Option target="project2_in_windows"/>
+		</Unit>
+		<Unit filename="D:/project2/project2-in-windows/resource.h">
 			<Option target="project2_in_windows"/>
 		</Unit>
 		<Unit filename="D:/project2/project2-in-windows/CMakeLists.txt">

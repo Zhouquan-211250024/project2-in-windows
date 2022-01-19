@@ -78,19 +78,64 @@ CMakeFiles/project2_in_windows.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/project2_in_windows.dir/main.c.s"
 	D:\365712127\FileRecv\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\project2\project2-in-windows\main.c -o CMakeFiles\project2_in_windows.dir\main.c.s
 
+CMakeFiles/project2_in_windows.dir/resource.c.obj: CMakeFiles/project2_in_windows.dir/flags.make
+CMakeFiles/project2_in_windows.dir/resource.c.obj: ../resource.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\project2\project2-in-windows\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/project2_in_windows.dir/resource.c.obj"
+	D:\365712127\FileRecv\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\project2_in_windows.dir\resource.c.obj -c D:\project2\project2-in-windows\resource.c
+
+CMakeFiles/project2_in_windows.dir/resource.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/project2_in_windows.dir/resource.c.i"
+	D:\365712127\FileRecv\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\project2\project2-in-windows\resource.c > CMakeFiles\project2_in_windows.dir\resource.c.i
+
+CMakeFiles/project2_in_windows.dir/resource.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/project2_in_windows.dir/resource.c.s"
+	D:\365712127\FileRecv\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\project2\project2-in-windows\resource.c -o CMakeFiles\project2_in_windows.dir\resource.c.s
+
+CMakeFiles/project2_in_windows.dir/event.c.obj: CMakeFiles/project2_in_windows.dir/flags.make
+CMakeFiles/project2_in_windows.dir/event.c.obj: ../event.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\project2\project2-in-windows\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/project2_in_windows.dir/event.c.obj"
+	D:\365712127\FileRecv\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\project2_in_windows.dir\event.c.obj -c D:\project2\project2-in-windows\event.c
+
+CMakeFiles/project2_in_windows.dir/event.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/project2_in_windows.dir/event.c.i"
+	D:\365712127\FileRecv\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\project2\project2-in-windows\event.c > CMakeFiles\project2_in_windows.dir\event.c.i
+
+CMakeFiles/project2_in_windows.dir/event.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/project2_in_windows.dir/event.c.s"
+	D:\365712127\FileRecv\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\project2\project2-in-windows\event.c -o CMakeFiles\project2_in_windows.dir\event.c.s
+
+CMakeFiles/project2_in_windows.dir/main-function.c.obj: CMakeFiles/project2_in_windows.dir/flags.make
+CMakeFiles/project2_in_windows.dir/main-function.c.obj: ../main-function.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\project2\project2-in-windows\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/project2_in_windows.dir/main-function.c.obj"
+	D:\365712127\FileRecv\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\project2_in_windows.dir\main-function.c.obj -c D:\project2\project2-in-windows\main-function.c
+
+CMakeFiles/project2_in_windows.dir/main-function.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/project2_in_windows.dir/main-function.c.i"
+	D:\365712127\FileRecv\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\project2\project2-in-windows\main-function.c > CMakeFiles\project2_in_windows.dir\main-function.c.i
+
+CMakeFiles/project2_in_windows.dir/main-function.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/project2_in_windows.dir/main-function.c.s"
+	D:\365712127\FileRecv\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\project2\project2-in-windows\main-function.c -o CMakeFiles\project2_in_windows.dir\main-function.c.s
+
 # Object files for target project2_in_windows
 project2_in_windows_OBJECTS = \
-"CMakeFiles/project2_in_windows.dir/main.c.obj"
+"CMakeFiles/project2_in_windows.dir/main.c.obj" \
+"CMakeFiles/project2_in_windows.dir/resource.c.obj" \
+"CMakeFiles/project2_in_windows.dir/event.c.obj" \
+"CMakeFiles/project2_in_windows.dir/main-function.c.obj"
 
 # External object files for target project2_in_windows
 project2_in_windows_EXTERNAL_OBJECTS =
 
 project2_in_windows.exe: CMakeFiles/project2_in_windows.dir/main.c.obj
+project2_in_windows.exe: CMakeFiles/project2_in_windows.dir/resource.c.obj
+project2_in_windows.exe: CMakeFiles/project2_in_windows.dir/event.c.obj
+project2_in_windows.exe: CMakeFiles/project2_in_windows.dir/main-function.c.obj
 project2_in_windows.exe: CMakeFiles/project2_in_windows.dir/build.make
 project2_in_windows.exe: CMakeFiles/project2_in_windows.dir/linklibs.rsp
 project2_in_windows.exe: CMakeFiles/project2_in_windows.dir/objects1.rsp
 project2_in_windows.exe: CMakeFiles/project2_in_windows.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\project2\project2-in-windows\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable project2_in_windows.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\project2\project2-in-windows\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable project2_in_windows.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\project2_in_windows.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

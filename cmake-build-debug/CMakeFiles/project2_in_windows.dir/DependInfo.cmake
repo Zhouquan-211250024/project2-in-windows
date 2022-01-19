@@ -8,7 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "D:/project2/project2-in-windows/event.c" "D:/project2/project2-in-windows/cmake-build-debug/CMakeFiles/project2_in_windows.dir/event.c.obj"
+  "D:/project2/project2-in-windows/main-function.c" "D:/project2/project2-in-windows/cmake-build-debug/CMakeFiles/project2_in_windows.dir/main-function.c.obj"
   "D:/project2/project2-in-windows/main.c" "D:/project2/project2-in-windows/cmake-build-debug/CMakeFiles/project2_in_windows.dir/main.c.obj"
+  "D:/project2/project2-in-windows/resource.c" "D:/project2/project2-in-windows/cmake-build-debug/CMakeFiles/project2_in_windows.dir/resource.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
